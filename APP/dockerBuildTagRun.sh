@@ -1,6 +1,6 @@
 #! /bin/bash
-docker build -t App .
+docker build -t app .
 
 sleep 3
 
-docker run -d --name App -p 80:80 App
+docker run -d --name app -p 80:80 app
