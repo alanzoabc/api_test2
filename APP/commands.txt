@@ -1,0 +1,5 @@
+To main:
+uvicorn app.main:app --reload
+
+To run test_main.py
+pytest test_main.py -vv > test_results.txt

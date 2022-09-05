@@ -1,0 +1,15 @@
+============================= test session starts =============================
+platform win32 -- Python 3.7.6, pytest-5.3.5, py-1.8.1, pluggy-0.13.1 -- C:\Users\alanz\anaconda3\python.exe
+cachedir: .pytest_cache
+hypothesis profile 'default' -> database=DirectoryBasedExampleDatabase('C:\\Users\\alanz\\Desktop\\APP\\.hypothesis\\examples')
+rootdir: C:\Users\alanz\Desktop\APP
+plugins: anyio-3.6.1, hypothesis-5.5.4, arraydiff-0.3, astropy-header-0.1.2, doctestplus-0.5.0, openfiles-0.4.0, remotedata-0.3.2
+collecting ... collected 5 items
+
+test_main.py::test_read_main PASSED                                      [ 20%]
+test_main.py::test_get_account PASSED                                    [ 40%]
+test_main.py::test_get_inexistent_account PASSED                         [ 60%]
+test_main.py::test_create_account PASSED                                 [ 80%]
+test_main.py::test_delete_account PASSED                                 [100%]
+
+============================== 5 passed in 1.40s ==============================
